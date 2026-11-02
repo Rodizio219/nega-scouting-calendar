@@ -1,0 +1,670 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nega-scouting-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NEGA Scouting
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Northeast Georgia Council events (auto-synced from nega-bsa.or
+ g)
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:513e4abbb78b4152ad4dd31b0db3f828@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Currahee Fall Camporee
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261109
+LOCATION:Uchee Lodge
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/currfallcamp
+URL:https://mycouncil.nega-bsa.org/Event/currfallcamp
+END:VEVENT
+BEGIN:VEVENT
+UID:3af9854519effb18183a1e1a1690dd5e@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Basic Adult Leader Outdoor Orientation
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261108T113000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/BALOO-Nov
+URL:https://mycouncil.nega-bsa.org/Event/BALOO-Nov
+END:VEVENT
+BEGIN:VEVENT
+UID:7b1f7ee4bc4368a9cc03f23d6ec17e73@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Chattahoochee Fall Camporee
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261108T113000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/chattcamporee
+URL:https://mycouncil.nega-bsa.org/Event/chattcamporee
+END:VEVENT
+BEGIN:VEVENT
+UID:edfac96913bc54c65764896901baed8f@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Etowah Fall Camporee
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261108T110000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/etowah-fall-campo
+ ree
+URL:https://mycouncil.nega-bsa.org/Event/etowah-fall-camporee
+END:VEVENT
+BEGIN:VEVENT
+UID:40b570f2738bf7aae76c1975d0f98183@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Introduction to Outdoor Leadership Skills
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261108T113000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/IOLS
+URL:https://mycouncil.nega-bsa.org/Event/IOLS
+END:VEVENT
+BEGIN:VEVENT
+UID:1905b76d4620a83ea2f3346420add867@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:BALOO &Cub Scout Leader Training Extravaganza
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+LOCATION:Uchee Lodge
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/currahee-2
+URL:https://mycouncil.nega-bsa.org/Event/currahee-2
+END:VEVENT
+BEGIN:VEVENT
+UID:1f864734831772743d13797a343962aa@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Wilderness First Aid
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/WFA-November-2026
+URL:https://mycouncil.nega-bsa.org/Event/WFA-November-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cc8cdeb21ab71b5c4b6c08267e748563@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Cherokee Fall Advance-A-Rama
+DTSTART;TZID=America/New_York:20261107T073000
+DTEND;TZID=America/New_York:20261107T150000
+LOCATION:University of Georgia Warnell School of Forestry and Natural Resou
+ rces
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/cherokeeadvancear
+ ama
+URL:https://mycouncil.nega-bsa.org/Event/cherokeeadvancearama
+END:VEVENT
+BEGIN:VEVENT
+UID:1dc37f9fa478a03753fa34f830800923@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2026 Sweetwater Loop-A-Rama
+DTSTART;TZID=America/New_York:20261107T090000
+DTEND;TZID=America/New_York:20261107T123000
+LOCATION:Grayson Elementary
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/sw-loop-a-rama
+URL:https://mycouncil.nega-bsa.org/Event/sw-loop-a-rama
+END:VEVENT
+BEGIN:VEVENT
+UID:025daa5baef03e855352bd56a62d7341@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Den Leader Training - AP
+DTSTART;TZID=America/New_York:20261107T090000
+DTEND;TZID=America/New_York:20261107T120000
+LOCATION:Prospect United Methodist Church
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/Den-Leader-Traini
+ ng-Lawrenceville
+URL:https://mycouncil.nega-bsa.org/Event/Den-Leader-Training-Lawrenceville
+END:VEVENT
+BEGIN:VEVENT
+UID:f6b800dfddd740e1f3338f6f5024546c@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Apalachee Cub Scout Fun Day
+DTSTART;TZID=America/New_York:20261107T100000
+DTEND;TZID=America/New_York:20261107T140000
+LOCATION:Prospect United Methodist Church
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/apcubfunday
+URL:https://mycouncil.nega-bsa.org/Event/apcubfunday
+END:VEVENT
+BEGIN:VEVENT
+UID:8c3bdb8e5ec1b5bba08e30254a9d6b23@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Apalachee Crossover Faire
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T200000
+LOCATION:COLLINS HILL HIGH SCHOOL
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/apwebelosfaire
+URL:https://mycouncil.nega-bsa.org/Event/apwebelosfaire
+END:VEVENT
+BEGIN:VEVENT
+UID:06d90c0cece715b43e165cf4b6b85282@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Chattahoochee District Roundtable
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T203000
+LOCATION:Redwine Methodist Church
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/5
+URL:https://mycouncil.nega-bsa.org/Event/5
+END:VEVENT
+BEGIN:VEVENT
+UID:7c6d14301d868e5bf134c3c9d10234a5@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Climbing Weekend November 2026
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/Climbing-Weekend-
+ November-2026
+URL:https://mycouncil.nega-bsa.org/Event/Climbing-Weekend-November-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:9f1e81774f96328fd351e0be57d649ea@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Tali Atsila Outdoor Skills Training 2026
+DTSTART;TZID=America/New_York:20261113T150000
+DTEND;TZID=America/New_York:20261115T180000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/TAOS-2026
+URL:https://mycouncil.nega-bsa.org/Event/TAOS-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:2fc67d24ae0f6b426b59f353dabd9cf6@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Chattahoochee Scouting for Food
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/100
+URL:https://mycouncil.nega-bsa.org/Event/100
+END:VEVENT
+BEGIN:VEVENT
+UID:6e7be02e5e679f630f57f27c3b2ded52@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Georgia Football - Gameday Recycling
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+LOCATION:Sanford Stadium
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/uga-recycling-Mis
+ souri-game
+URL:https://mycouncil.nega-bsa.org/Event/uga-recycling-Missouri-game
+END:VEVENT
+BEGIN:VEVENT
+UID:35a1998c1e213d91095a7c43f2a8a6dd@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Currahee Loop-A-Rama
+DTSTART;TZID=America/New_York:20261114T083000
+DTEND;TZID=America/New_York:20261114T123000
+LOCATION:Toccoa FMC
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/curraheeLAR
+URL:https://mycouncil.nega-bsa.org/Event/curraheeLAR
+END:VEVENT
+BEGIN:VEVENT
+UID:e5f47e125242ad00d39f58b1243515ba@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2026 RATA Rifle\, Shotgun\, or Archery MB Day Nov
+DTSTART;TZID=America/New_York:20261114T090000
+DTEND;TZID=America/New_York:20261114T160000
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/Range-and-Target-
+ Merit-Badge-Nov
+URL:https://mycouncil.nega-bsa.org/Event/Range-and-Target-Merit-Badge-Nov
+END:VEVENT
+BEGIN:VEVENT
+UID:cf90e9bab0ceaf81d12d46844d47e053@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Chattahoochee Cubmobile
+DTSTART;TZID=America/New_York:20261114T090000
+DTEND;TZID=America/New_York:20261114T140000
+LOCATION:Chestnut Mountain Church
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/chattcmobile
+URL:https://mycouncil.nega-bsa.org/Event/chattcmobile
+END:VEVENT
+BEGIN:VEVENT
+UID:290dce17376fee0bd710b382d2d66b48@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Etowah Tiger/Lion Fun Day
+DTSTART;TZID=America/New_York:20261114T100000
+DTEND;TZID=America/New_York:20261114T160000
+LOCATION:Midway United Methodist
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/105
+URL:https://mycouncil.nega-bsa.org/Event/105
+END:VEVENT
+BEGIN:VEVENT
+UID:0bc07c316ec8ecc5d68830d056f0a36c@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Gwinnett County Star and Shield Competition
+DTSTART;TZID=America/New_York:20261121T073000
+DTEND;TZID=America/New_York:20261121T180000
+LOCATION:Gwinnett County Police Training Center
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/starandshield
+URL:https://mycouncil.nega-bsa.org/Event/starandshield
+END:VEVENT
+BEGIN:VEVENT
+UID:5e392f5adbc4276378541db6f8156f2c@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2026 Sweetwater Liberty In Action
+DTSTART;TZID=America/New_York:20261121T090000
+DTEND;TZID=America/New_York:20261121T150000
+LOCATION:Vines Park
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/SWIMPACT365
+URL:https://mycouncil.nega-bsa.org/Event/SWIMPACT365
+END:VEVENT
+BEGIN:VEVENT
+UID:2654bf37da2e61c68a6aa35fb7185d06@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Georgia Football - Gameday Recycling
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/uga-recycling-GAT
+ ech-game
+URL:https://mycouncil.nega-bsa.org/Event/uga-recycling-GATech-game
+END:VEVENT
+BEGIN:VEVENT
+UID:200cb72431f553b92e0f849e329c2e49@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:University of Scouting
+DTSTART;TZID=America/New_York:20261205T080000
+DTEND;TZID=America/New_York:20261205T160000
+LOCATION:Frank N. Osborne Middle School
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/UofS
+URL:https://mycouncil.nega-bsa.org/Event/UofS
+END:VEVENT
+BEGIN:VEVENT
+UID:da4585bbdb0293b045c82db839f31e01@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Scout Night with the Athens Rock Lobsters
+DTSTART;TZID=America/New_York:20261206T160000
+DTEND;TZID=America/New_York:20261206T190000
+LOCATION:Akins Ford Arena
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/139
+URL:https://mycouncil.nega-bsa.org/Event/139
+END:VEVENT
+BEGIN:VEVENT
+UID:bdce769e80b056c810647db04af40c27@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Chattahoochee District Roundtable
+DTSTART;TZID=America/New_York:20261210T190000
+DTEND;TZID=America/New_York:20261210T203000
+LOCATION:Redwine Methodist Church
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/6
+URL:https://mycouncil.nega-bsa.org/Event/6
+END:VEVENT
+BEGIN:VEVENT
+UID:af2eb9d9c549290b767e1b15061ed98a@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Yule Log
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261214
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/yule-log
+URL:https://mycouncil.nega-bsa.org/Event/yule-log
+END:VEVENT
+BEGIN:VEVENT
+UID:6955a705cabdf2d439be424541859832@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Cherokee Fall Camporee
+DTSTART;TZID=America/New_York:20261211T180000
+DTEND;TZID=America/New_York:20261212T113000
+LOCATION:Camp Rotary
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/Cherokee-fall-cam
+ poree
+URL:https://mycouncil.nega-bsa.org/Event/Cherokee-fall-camporee
+END:VEVENT
+BEGIN:VEVENT
+UID:526d58afd53c531de1b52a53b19d1b15@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Chattahoochee Ornament Workshop
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T130000
+LOCATION:St. Paul United Methodist Church
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/chattornaments
+URL:https://mycouncil.nega-bsa.org/Event/chattornaments
+END:VEVENT
+BEGIN:VEVENT
+UID:447838a227759482f00ab5514f3b770e@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Cherokee Christmas Ornament Workshop
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T140000
+LOCATION:St. Stephens Anglican Catholic Church
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/cherokeeornamentw
+ s
+URL:https://mycouncil.nega-bsa.org/Event/cherokeeornamentws
+END:VEVENT
+BEGIN:VEVENT
+UID:8fe13f91270c2c5742a91247e2743664@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Etowah Ornament Workshop
+DTSTART;TZID=America/New_York:20261212T100000
+DTEND;TZID=America/New_York:20261212T123000
+LOCATION:Horizon Christian Academy
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/ornamentworkshop
+URL:https://mycouncil.nega-bsa.org/Event/ornamentworkshop
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd785f18d1036b886137eee6d229d98@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Scout Night at the Gladiators
+DTSTART;TZID=America/New_York:20261226T190000
+DTEND;TZID=America/New_York:20261226T213000
+LOCATION:Gas South Arena
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/scout-night--glad
+ iators
+URL:https://mycouncil.nega-bsa.org/Event/scout-night--gladiators
+END:VEVENT
+BEGIN:VEVENT
+UID:6b1440fb444da0464d7ef1cdecf88407@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Join the Parties - Popcorn Sales
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/popcorn
+URL:https://mycouncil.nega-bsa.org/Event/popcorn
+END:VEVENT
+BEGIN:VEVENT
+UID:975a3bc266f06c0289f0766cd9efa65d@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Wood Badge Reunion - Back to Gilwell
+DTSTART;TZID=America/New_York:20270109T100000
+DTEND;TZID=America/New_York:20270109T140000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/WB-Reunion-Back-t
+ o-Gilwell-13
+URL:https://mycouncil.nega-bsa.org/Event/WB-Reunion-Back-to-Gilwell-13
+END:VEVENT
+BEGIN:VEVENT
+UID:eea6e4bba2588f16ee9f156bb58d997f@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Chattahoochee District Roundtable
+DTSTART;TZID=America/New_York:20270114T190000
+DTEND;TZID=America/New_York:20270114T203000
+LOCATION:Redwine Methodist Church
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/7
+URL:https://mycouncil.nega-bsa.org/Event/7
+END:VEVENT
+BEGIN:VEVENT
+UID:fbb7696bb09dd639cb3379b36c3d8812@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Swimming Merit Badge January
+DTSTART;TZID=America/New_York:20270130T130000
+DTEND;TZID=America/New_York:20270130T173000
+LOCATION:Gwinnett Swim
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/swim-mb-January
+URL:https://mycouncil.nega-bsa.org/Event/swim-mb-January
+END:VEVENT
+BEGIN:VEVENT
+UID:dbaf838aaa5b22d8ccc1c5caf3fc25ca@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Scout Night with the Athens Rock Lobsters
+DTSTART;TZID=America/New_York:20270206T190000
+DTEND;TZID=America/New_York:20270206T213000
+LOCATION:Akins Ford Arena
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/124
+URL:https://mycouncil.nega-bsa.org/Event/124
+END:VEVENT
+BEGIN:VEVENT
+UID:ceaeb4d7c00e1b96ebf9348cd8fb65ce@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Apalachee Advance-a-rama
+DTSTART;TZID=America/New_York:20270227T080000
+DTEND;TZID=America/New_York:20270227T150000
+LOCATION:Central Gwinnett High School
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/APAAR
+URL:https://mycouncil.nega-bsa.org/Event/APAAR
+END:VEVENT
+BEGIN:VEVENT
+UID:c7a315086091ff5f6918631759f99b24@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Apalachee Loop-A-Rama
+DTSTART;TZID=America/New_York:20270227T090000
+DTEND;TZID=America/New_York:20270227T123000
+LOCATION:Central Gwinnett High School
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/AP-L-A-R
+URL:https://mycouncil.nega-bsa.org/Event/AP-L-A-R
+END:VEVENT
+BEGIN:VEVENT
+UID:f258e06af349b28386aeb9d7406721fc@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Basic Adult Leader Outdoor Orientation
+DTSTART;TZID=America/New_York:20270305T180000
+DTEND;TZID=America/New_York:20270307T100000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/BALOO-March
+URL:https://mycouncil.nega-bsa.org/Event/BALOO-March
+END:VEVENT
+BEGIN:VEVENT
+UID:4d73e801352ddb0e1d071f42621e6d3d@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Introduction to Outdoor Leadership Skills
+DTSTART;TZID=America/New_York:20270305T180000
+DTEND;TZID=America/New_York:20270307T100000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/IOLS---March
+URL:https://mycouncil.nega-bsa.org/Event/IOLS---March
+END:VEVENT
+BEGIN:VEVENT
+UID:c70c227d34f2ec4abd65f1c77e89facf@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Wilderness First Aid
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270308
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/WFA-March-2027
+URL:https://mycouncil.nega-bsa.org/Event/WFA-March-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:d6e7820edae05298eeec2c3d1eee609c@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2027 Spring Fling
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270322
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/spring-fling
+URL:https://mycouncil.nega-bsa.org/Event/spring-fling
+END:VEVENT
+BEGIN:VEVENT
+UID:54c2c1cef4cbcde36adc112563089b24@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:NEGA Classic Annual Golf Tournament
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+LOCATION:The Legends at Chateau Elan Golf Course
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/golf
+URL:https://mycouncil.nega-bsa.org/Event/golf
+END:VEVENT
+BEGIN:VEVENT
+UID:52f834293ab437fe8e1e0caa7de99c4f@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2027 RATA Rifle\, Shotgun\, or Archery MB Day April
+DTSTART;TZID=America/New_York:20270417T090000
+DTEND;TZID=America/New_York:20270417T160000
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/RATA-MB-April
+URL:https://mycouncil.nega-bsa.org/Event/RATA-MB-April
+END:VEVENT
+BEGIN:VEVENT
+UID:a8de5acf262f9bf4d64c0778feeba3c8@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2027 Spring Family Camping
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/spring-family-cam
+ ping
+URL:https://mycouncil.nega-bsa.org/Event/spring-family-camping
+END:VEVENT
+BEGIN:VEVENT
+UID:600565e1b1c160067f088282182bbc38@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Wood Badge 2027
+DTSTART;TZID=America/New_York:20270423T073000
+DTEND;TZID=America/New_York:20270425T180000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/Wood-Badge-2027
+URL:https://mycouncil.nega-bsa.org/Event/Wood-Badge-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:2420468673a626e5d74dddd58bd99c87@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Swimming Merit Badge April
+DTSTART;TZID=America/New_York:20270424T130000
+DTEND;TZID=America/New_York:20270424T173000
+LOCATION:Gwinnett Swim
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/swim-mb-April
+URL:https://mycouncil.nega-bsa.org/Event/swim-mb-April
+END:VEVENT
+BEGIN:VEVENT
+UID:87723d24a80b49e236ed6b215d65f81c@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2027 NRA Basic Class May
+DTSTART;TZID=America/New_York:20270507T180000
+DTEND;TZID=America/New_York:20270508T160000
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/NRA-Basic-May
+URL:https://mycouncil.nega-bsa.org/Event/NRA-Basic-May
+END:VEVENT
+BEGIN:VEVENT
+UID:ea51049a77adbff95a76456cabb2ee03@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:National Youth Leadership Training (Week 1)
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270606
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/NYLT
+URL:https://mycouncil.nega-bsa.org/Event/NYLT
+END:VEVENT
+BEGIN:VEVENT
+UID:b6094c8a6992ea70a54147cf66c6d3b1@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Camp Rainey Mountain Summer Camp Week 1 - 2027
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270613
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/CRM-SUMC-2027-Wee
+ k1
+URL:https://mycouncil.nega-bsa.org/Event/CRM-SUMC-2027-Week1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d2cd4ed1a10064b87517dd4b1dc782c@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:National Youth Leadership Training (Week 2)
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270613
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/NYLT-WK2
+URL:https://mycouncil.nega-bsa.org/Event/NYLT-WK2
+END:VEVENT
+BEGIN:VEVENT
+UID:a4f3dc5b5116a7c79b827be984ca9eb7@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Camp Rainey Mountain Summer Camp Week 2 - 2027
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270620
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/75
+URL:https://mycouncil.nega-bsa.org/Event/75
+END:VEVENT
+BEGIN:VEVENT
+UID:637c9ef06ca3d65a638fca91ea314104@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2027 Pathfinders Week 1
+DTSTART;TZID=America/New_York:20270614T083000
+DTEND;TZID=America/New_York:20270618T160000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/pathfinders
+URL:https://mycouncil.nega-bsa.org/Event/pathfinders
+END:VEVENT
+BEGIN:VEVENT
+UID:af7e41a671e8a5ea01e369f6edc64afb@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Camp Rainey Mountain Summer Camp Week 3 - 2027
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270627
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/76
+URL:https://mycouncil.nega-bsa.org/Event/76
+END:VEVENT
+BEGIN:VEVENT
+UID:c286cb659478eb05e37bf940e5d287f7@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2027 Pathfinders Week 2
+DTSTART;TZID=America/New_York:20270621T083000
+DTEND;TZID=America/New_York:20270625T160000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/pathfinders-2
+URL:https://mycouncil.nega-bsa.org/Event/pathfinders-2
+END:VEVENT
+BEGIN:VEVENT
+UID:de8e3bda6055c589e5dc8791f7a5d574@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Camp Rainey Mountain Summer Camp Week 4 - 2027
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270704
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/77
+URL:https://mycouncil.nega-bsa.org/Event/77
+END:VEVENT
+BEGIN:VEVENT
+UID:5dc57a4e3459880c3951e54c89e10f30@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Camp Rainey Mountain Summer Camp Week 5 - 2027
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270711
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/90
+URL:https://mycouncil.nega-bsa.org/Event/90
+END:VEVENT
+BEGIN:VEVENT
+UID:adf890b1a38b95047a10307b60507846@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Camp Rainey Mountain Summer Camp Week 6 - 2027
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270718
+LOCATION:Camp Rainey Mountain
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/97
+URL:https://mycouncil.nega-bsa.org/Event/97
+END:VEVENT
+BEGIN:VEVENT
+UID:dccc20c326b126ba4c2788ee51347a89@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Merit Badge Workshop
+DTSTART;TZID=America/New_York:20270724T083000
+DTEND;TZID=America/New_York:20270724T150000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/mb-workshop
+URL:https://mycouncil.nega-bsa.org/Event/mb-workshop
+END:VEVENT
+BEGIN:VEVENT
+UID:dc633e8b6d9450564c97cb4ec99816df@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:2027 Aquatics Weekend 1
+DTSTART;TZID=America/New_York:20270730T180000
+DTEND;TZID=America/New_York:20270801T113000
+LOCATION:Scoutland
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/aquatics
+URL:https://mycouncil.nega-bsa.org/Event/aquatics
+END:VEVENT
+BEGIN:VEVENT
+UID:7ca98324e1b22173a77def0a3bbc6fb7@nega-bsa.org
+DTSTAMP:20261102T012203Z
+SUMMARY:Swimming Merit Badge July
+DTSTART;TZID=America/New_York:20270731T130000
+DTEND;TZID=America/New_York:20270731T173000
+LOCATION:Gwinnett Swim
+DESCRIPTION:Details: https://mycouncil.nega-bsa.org/Event/swim-mb-July
+URL:https://mycouncil.nega-bsa.org/Event/swim-mb-July
+END:VEVENT
+END:VCALENDAR
